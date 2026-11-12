@@ -3,7 +3,7 @@ package Modelo;
 public class Persona {
     
     private String Nombre;
-    private int Celular;
+    private String  Celular;
     private String Email;
     private String Categoria;
     private Boolean Favorito;
@@ -11,7 +11,7 @@ public class Persona {
     public Persona() {
     }
 
-    public Persona(String Nombre, int Celular, String Email, String Categoria, Boolean Favorito) {
+    public Persona(String Nombre, String  Celular, String Email, String Categoria, Boolean Favorito) {
         this.Nombre = Nombre;
         this.Celular = Celular;
         this.Email = Email;
@@ -27,11 +27,11 @@ public class Persona {
         this.Nombre = Nombre;
     }
 
-    public int getCelular() {
+    public String getCelular() {
         return Celular;
     }
 
-    public void setCelular(int Celular) {
+    public void setCelular(String Celular) {
         this.Celular = Celular;
     }
 
